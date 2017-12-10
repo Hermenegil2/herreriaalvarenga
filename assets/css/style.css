@@ -20,8 +20,6 @@ body {
 .violet { color: #9d426b; }
 
 a {
-    padding-left: 10px;
-    font-size: 18px;
     color: #9d426b;
     text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
@@ -118,7 +116,10 @@ a.big-link-3:active {
 /***** Top menu *****/
 
 .navbar {
-	margin-left: -200px;
+	margin-bottom: 0;
+	background: #fff;
+	border: 0;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
 ul.navbar-nav {
